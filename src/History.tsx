@@ -9,7 +9,7 @@ export default function History() {
                 <div key={idx} className="link-his">
                     <p>{url} → {code}</p>
 
-                    <button onClick={() => window.open(`http://localhost:5173/${code}`, "_blank")}>
+                    <button onClick={() => window.open(`https://shortener-d.netlify.app/${code}`, "_blank")}>
                         Visit
                     </button>
                 </div>

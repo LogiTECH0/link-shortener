@@ -29,7 +29,7 @@ export default function Create() {
         e.preventDefault();
         if (url === "") return;
         const code = generateCode(8);
-        const tempUrl = `https://shorter.netlify.app/${code}`;
+        const tempUrl = `https://shortener-d.netlify.app/${code}`;
         setWaiting(true);
         setWaitingText("Generating code...");
         setTimeout(function() {
