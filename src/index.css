@@ -1,0 +1,8 @@
+.redirect {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #292929, #5e63c3);
+}
